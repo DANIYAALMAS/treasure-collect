@@ -1,0 +1,10 @@
+object1 = {
+  a: [{x:10,y:20}],
+  b: [{x:20,y:50}],
+  c: false
+};
+let object1_arr=Object.keys(object1).map(obj=>{  return object1[obj]
+})
+console.log(object1_arr)
+console.log(Object.values(object1));
+// expected output: Array ["a", "b", "c"]
